@@ -21,7 +21,8 @@ class AssetReturnResource extends Resource
 {
     protected static ?string $model = AssetReturn::class;
 
-    protected static string|BackedEnum|null $navigationIcon = Heroicon::OutlinedRectangleStack;
+   protected static string|BackedEnum|null $navigationIcon = 'heroicon-o-clipboard-document-check';
+    protected static string|BackedEnum|null $activeNavigationIcon = 'heroicon-s-clipboard-document-check';
 
     protected static ?string $recordTitleAttribute = 'id';
 
